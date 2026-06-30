@@ -1,0 +1,18 @@
+# Busted Child Clothing - Robots.txt
+# https://www.bustedchild.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin/cart/wishlist pages from indexing
+Disallow: /cart
+Disallow: /wishlist
+Disallow: /account
+Disallow: /checkout
+Disallow: /admin
+
+# Sitemap location
+Sitemap: https://www.bustedchild.com/sitemap.xml
+
+# Crawl delay (be nice to the server)
+Crawl-delay: 10
